@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  postgres:
+    image: postgres:10.5
+    volumes:
+      - './db_data:/var/lib/postgresql/data:delegated'
+    ports:
+      - '5432:5432'

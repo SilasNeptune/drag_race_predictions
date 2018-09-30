@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'drag_race_predictions.episodes',
     'drag_race_predictions.seasons',
     'drag_race_predictions.queens',
+    'drag_race_predictions.appearances',
 ]
 
 MIDDLEWARE = [

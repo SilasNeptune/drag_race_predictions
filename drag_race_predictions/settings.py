@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'drag_race_predictions.episodes',
     'drag_race_predictions.seasons',
+    'drag_race_predictions.queens',
 ]
 
 MIDDLEWARE = [
